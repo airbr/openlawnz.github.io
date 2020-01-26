@@ -84,7 +84,6 @@ h1 {
         }
 .introduction{
     background-color: white;
-    display: flex;
     padding: 30px;
     display: flex;
     flex-direction: column;}
