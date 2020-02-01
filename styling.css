@@ -81,11 +81,23 @@ h1 {
         border-right: none;
         width: 100%;}
         }
-.introduction{
-    background-color: white;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;}
+      
+@media screen and (max-width: 700px){
+    .introduction{
+        background-color: white;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;}
+    }
+    
+@media screen and (min-width: 700px){
+    .introduction{
+        background-color: white;
+        padding: 30px;
+        display: flex;
+        flex-direction: row;}
+    }
+}
 
 #intro_text p{
     width: 80%;
